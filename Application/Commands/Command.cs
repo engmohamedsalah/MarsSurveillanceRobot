@@ -11,13 +11,23 @@ namespace Application.Commands
         protected int BatteryConsumption { get; }
 
         protected CommandType CommandType { get; }
-
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Command"/> class.
+        /// </summary>
+        /// <param name="commandType">Type of the command.</param>
+        /// <param name="batteryConsumption">The battery consumption.</param>
         public Command(CommandType commandType, int batteryConsumption)
         {
             CommandType = commandType;
             BatteryConsumption = batteryConsumption;
         }
 
+        /// <summary>
+        /// Executes the specified robot.
+        /// </summary>
+        /// <param name="robot">The robot.</param>
+        /// <returns></returns>
+        /// <exception cref="Application.Exceptions.NoMoreMoveException"></exception>
         public CommandResult Execute(Robot robot)
         {
             Console.WriteLine(CommandType.ToString());
@@ -38,7 +48,10 @@ namespace Application.Commands
 
             return result;
         }
-
+        /// <summary>
+        /// Excutes the back off.
+        /// </summary>
+        /// <param name="robot">The robot.</param>
         private void ExcuteBackOff(Robot robot)
         {
             var commands = robot

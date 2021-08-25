@@ -6,4 +6,3 @@ C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Debug\
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Debug\netstandard2.0\Application.dll
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Debug\netstandard2.0\Application.pdb
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Debug\netstandard2.0\Application.csproj.CoreCompileInputs.cache
-C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Debug\netstandard2.0\Application.csprojAssemblyReference.cache
