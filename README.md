@@ -19,7 +19,7 @@ This repository has all the developed code to complete assingment for Olympic Ch
     - has the ability to add custom middleware for exception handling
     
 - MSTest 
-    for adding unit tests
+    For adding unit tests
 
 ## How to run 
 
