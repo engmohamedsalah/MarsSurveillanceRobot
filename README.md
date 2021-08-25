@@ -24,11 +24,20 @@ This repository has all the developed code to complete assingment for Olympic Ch
 ## How to run 
 
 #### Running obs_test.bat script
-this will register the exe file to environment variables so that you can open any terminal and run :
+go to  **publish** folder that contains the published project
+and **obs_test.bat** that script will register the exe file to environment variables so that you can open any terminal and run :
+
+the project was published as self-contained to include all dependencies 
+this run for windows platform
+
+![](images/SelfContained.PNG)
+
+
 
 command:
 
-    - obs_test for run api postman or similar can be use to test the API
+    - obs_test for run api 
+    postman or similar can be use to test the API
 ![](images/APIRun.PNG)
     
     - obs_test <inputfile> <outputfile> for run the app as exe
