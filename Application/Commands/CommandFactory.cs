@@ -5,6 +5,12 @@ namespace Application.Commands
 {
     public class CommandFactory : ICommandFactory
     {
+        /// <summary>
+        /// Creats the command.
+        /// </summary>
+        /// <param name="command">creat the command.</param>
+        /// <returns></returns>
+        /// <exception cref="Application.Exceptions.UnkownCommandException"></exception>
         public Command CreatCommand(string command)
         {
             switch (command.ToUpper())
@@ -32,6 +38,11 @@ namespace Application.Commands
             }
         }
 
+        /// <summary>
+        /// Creats list of commands.
+        /// </summary>
+        /// <param name="commands">The commands.</param>
+        /// <returns></returns>
         public List<Command> CreatCommands(string commands)
         {
             var result = new List<Command>();

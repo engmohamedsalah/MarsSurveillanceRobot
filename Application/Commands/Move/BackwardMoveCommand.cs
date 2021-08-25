@@ -9,9 +9,13 @@ namespace Application.Commands
     public class BackwardMoveCommand : MoveCommand
     {
         public BackwardMoveCommand()
-            : base(CommandType.Backward)
-        { }
+            : base(CommandType.Backward) { }
 
+        /// <summary>Potentials the next move.</summary>
+        /// <param name="robot">The robot.</param>
+        /// <returns>
+        ///   <br />
+        /// </returns>
         protected override Position PotentialNextMove(Robot robot)
         {
             var result = Position.Clone(robot.Position);

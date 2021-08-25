@@ -12,11 +12,19 @@ namespace API.Middleware
     {
         private readonly RequestDelegate _next;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ErrorHandlerMiddlewares"/> class.
+        /// </summary>
+        /// <param name="next">The next.</param>
         public ErrorHandlerMiddlewares(RequestDelegate next)
         {
             _next = next;
         }
 
+        /// <summary>
+        /// Invokes the specified context.
+        /// </summary>
+        /// <param name="context">The context.</param>
         public async Task Invoke(HttpContext context)
         {
             try
