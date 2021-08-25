@@ -29,7 +29,16 @@ this will register the exe file to environment variables so that you can open an
 command:
 
     - obs_test for run api postman or similar can be use to test the API
+![](images/APIRun.PNG)
+    
     - obs_test <inputfile> <outputfile> for run the app as exe
+![](images/ConsoleRun.PNG)
+    
+### Log File
+    the log files could be found under path 
+    
+    - Logs/API for API
+    - Logs/Console for console 
 
 ## Assumption
 - the cell contains an infinity number of the same material 
@@ -51,13 +60,43 @@ Project | purpose
 --- | --- |
 API|lightweight API layer
 Application| contains the business logic 
+API.Test| test project for API layer
+Application.Test| test project for application layer
+
+  ### note 
+    The two test projects are providing samples of unit tests and they are not cover all logic
+    this proves that I can write unit tests
+
+# Technical Decision 
+for general guid I tried to do the following: 
+
+- Follow the solid prinipal
+- Depends on interface not on class construction so in the future the concrete class could be changed easily
+- 
+
+### Command
+I choose to have on Command parent class and there are 3 types of command
+- Move Command include move forward and move backward
+- Turn Command include turn left and turn right
+- other Command include task sample and extend solar panels
 
 
+
+
+![](images/Command.PNG)
 
 ## design pattern
 
-- Factory
-- Template Method
+- Factory : for creating the different commands
+- Template Method : for focing each command to do the following
+    - check battery 
+    - check obstacle 
+    - Excute the command
+    by doing this I go a central place for all commands to be executed 
+
+
+
+
 
 
 
