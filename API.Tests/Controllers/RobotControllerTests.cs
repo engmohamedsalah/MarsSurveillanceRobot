@@ -3,11 +3,13 @@ using Application.Commands;
 using Application.Enums;
 using Application.Model;
 using Application.Service;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Collections.Generic;
+using System.Net;
 
 namespace API.Tests.Controllers
 {
@@ -38,10 +40,10 @@ namespace API.Tests.Controllers
             var robotController = new RobotController(_robotService, _logger.Object);
 
             // Act
-            var result = robotController.Index();
+            var result = robotController.Index() as OkObjectResult;
 
             // Assert
-            Assert.Fail();
+            Assert.AreEqual(result.StatusCode, (int)HttpStatusCode.OK);
         }
 
         [TestMethod]
@@ -64,14 +66,15 @@ namespace API.Tests.Controllers
             InputRequestJson inputRequestJson = new InputRequestJson(terrain, 50, commands, position);
 
             // Act
-            var result = robotController.Create(inputRequestJson);
+            var result = robotController.Create(inputRequestJson) as OkObjectResult;
+            var json = result.Value as OutputResponseJson;
 
             // Assert
-            Assert.AreEqual(result.Robot.Battery, 27);
-            Assert.AreEqual(_robotService.Robot.Position.Facing, Facing.South);
-            Assert.AreEqual(_robotService.Robot.Position.Location.X, 0);
-            Assert.AreEqual(_robotService.Robot.Position.Location.Y, 1);
-            Assert.AreEqual(_robotService.Robot.VisitedCells.Count, 2);
+            Assert.AreEqual(json.Battery, 27);
+            Assert.AreEqual(json.FinalPosition.Facing, Facing.South);
+            Assert.AreEqual(json.FinalPosition.Location.X, 0);
+            Assert.AreEqual(json.FinalPosition.Location.Y, 1);
+            Assert.AreEqual(json.VisitedCells.Count, 2);
         }
     }
 }

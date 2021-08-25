@@ -5,7 +5,6 @@ C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\ne
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\osb_test.bat
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\API.Tests.deps.json
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\API.Tests.runtimeconfig.json
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\API.Tests.runtimeconfig.dev.json
@@ -120,3 +119,10 @@ C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\ne
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.AssemblyInfo.cs
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.csproj.CopyComplete
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.genruntimeconfig.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.dll
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\obj\Debug\netcoreapp3.1\API.Tests.pdb
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\obs_test.bat
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API.Tests\bin\Debug\netcoreapp3.1\API.Tests.pdb

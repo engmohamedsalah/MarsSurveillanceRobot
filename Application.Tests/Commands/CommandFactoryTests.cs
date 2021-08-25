@@ -38,21 +38,5 @@ namespace Application.Tests.Commands
             Assert.AreEqual(result.GetType().Name, expectedCommand);
             this.mockRepository.VerifyAll();
         }
-
-        [TestMethod]
-        public void CreatCommands_StateUnderTest_ExpectedBehavior()
-        {
-            // Arrange
-            var factory = this.CreateFactory();
-            string commands = null;
-
-            // Act
-            var result = factory.CreatCommands(
-                commands);
-
-            // Assert
-            Assert.Fail();
-            this.mockRepository.VerifyAll();
-        }
     }
 }
