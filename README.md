@@ -79,11 +79,22 @@ I choose to have on Command parent class and there are 3 types of command
 - Move Command include move forward and move backward
 - Turn Command include turn left and turn right
 - other Command include task sample and extend solar panels
-
-
-
-
 ![](images/Command.PNG)
+
+
+### API
+    the post API is
+    https://localhost:5001/Robot 
+    please note that it is common that POST does not return the result and 
+    in case of need to return result it should be Get by Id API to return that 
+    but for simplicity I made thePOST return the result
+
+### Console
+    I created ProgramForConsole.cs to handle this call for the console app 
+    but both console and API use the application layer as both have the same logic
+
+
+
 
 ## design pattern
 
