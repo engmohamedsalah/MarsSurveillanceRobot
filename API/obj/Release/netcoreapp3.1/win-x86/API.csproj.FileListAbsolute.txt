@@ -383,3 +383,4 @@ C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API\obj\Release\netcor
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API\obj\Release\netcoreapp3.1\win-x86\obs_test.dll
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API\obj\Release\netcoreapp3.1\win-x86\obs_test.pdb
 C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API\obj\Release\netcoreapp3.1\win-x86\API.genruntimeconfig.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\API\bin\Release\netcoreapp3.1\win-x86\obs_test.bat
