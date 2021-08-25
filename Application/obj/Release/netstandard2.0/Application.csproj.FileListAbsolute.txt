@@ -1,0 +1,9 @@
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\bin\Release\netstandard2.0\Application.deps.json
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\bin\Release\netstandard2.0\Application.dll
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\bin\Release\netstandard2.0\Application.pdb
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.csprojAssemblyReference.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.AssemblyInfoInputs.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.AssemblyInfo.cs
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.dll
+C:\Users\Mohamed Salah\source\repos\MarsSurveillanceRobot\Application\obj\Release\netstandard2.0\Application.pdb
